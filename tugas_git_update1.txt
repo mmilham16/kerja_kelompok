@@ -4,8 +4,8 @@ import os
 import sys
 
 class mahasiswa : l-1 (pagi)
-	nim='212370017, lanjut, 212370019'
-	nama='TioBayuHermawan, lanjut, Muhammadilham'
+	nim='212370017, 212370018, 212370019'
+	nama='TioBayuHermawan, Muhammadsaifansyah, Muhammadilham'
 
 pilih = 0
 dataSiswa = [TioBayuHermawan 212370017, MuhammadSaifansyah 212370018, MuhammadIlham 212370019]
@@ -38,8 +38,8 @@ def menu() :
 	    if(index update > -1):
 	    print("INPUT DATA YANG DI UPDATE ")
 	    siswa = Mahasiswa ()
-	    siswa.nim = (int(input("masukan nim : 212370017, LANJUT, 212370019")))
-	    siswa.nama = (input("masukan nama siswa : TioBayuHermawan, LANJUT, Muhammadilham"))
+	    siswa.nim = (int(input("masukan nim : 212370017, 212370018, 212370019")))
+	    siswa.nama = (input("masukan nama siswa : TioBayuHermawan, Muhammadsaifansyah, Muhammadilham"))
             dataSiswa [index_update] = siswa
             print("berhasil update data siswa")
  	  else : print("nim tidak ditemukan")
@@ -71,8 +71,8 @@ def tampil():
         os.system('cls'):
 	print("DATA MAHASISWA")
 	for data in dataSiswa:
-	    print("Nim : 212370017, LANJUT, 212370019"+str(data.nim))	
-	    print("Nama : TioBayuHermawan, LANJUT, Muhammadilham"+data.nama)
+	    print("Nim : 212370017, 212370018, 212370019"+str(data.nim))	
+	    print("Nama : TioBayuHermawan, Muhammad saifansyah, Muhammadilham"+data.nama)
 	    print("----------------------")
 
 def author():
@@ -86,8 +86,8 @@ def pilih1():
         os.system('cls')
 	siswaBaru = Mahasiswa()
 	print("INPUT DATA MAHASISWA ")
-	siswaBaru.nim = (int(input("masukan nim : 212370017, LANJUT, 212370019")))
-	siswaBaru.nama = (input("masukan nama siswa :TioBayuHermawan, LANJUT, Muhammadilham"))
+	siswaBaru.nim = (int(input("masukan nim : 212370017, 212370018, 212370019")))
+	siswaBaru.nama = (input("masukan nama siswa :TioBayuHermawan, Muhammadsaifansyah, Muhammadilham"))
 	dataSiswa.append(siswaBaru)
 	ulang = input("Apakah Anda Ingin Mengulang (Y/ T)? ")
 
