@@ -3,12 +3,12 @@
 import os 
 import sys
 
-class mahasiswa :
-	nim=' '
-	nama=' '
+class mahasiswa : l-1 (pagi)
+	nim='212370017, lanjut'
+	nama='TioBayuHermawan, lanjut '
 
 pilih = 0
-dataSiswa = []
+dataSiswa = [TioBayuHermawan 212370017, MuhammadSaifansyah 212370018, MuhammadIlham 212370019]
 
 def menu() :
 	os .system('cls')
@@ -71,8 +71,8 @@ def tampil():
         os.system('cls'):
 	print("DATA MAHASISWA")
 	for data in dataSiswa:
-	    print("Nim : "+str(data.nim))	
-	    print("Nama : "+data.nama)
+	    print("Nim : 212370017, LANJUT"+str(data.nim))	
+	    print("Nama : TioBayuHermawan, LANJUT"+data.nama)
 	    print("----------------------")
 
 def author():
@@ -86,8 +86,8 @@ def pilih1():
         os.system('cls')
 	siswaBaru = Mahasiswa()
 	print("INPUT DATA MAHASISWA ")
-	siswaBaru.nim = (int(input("masukan nim : ")))
-	siswaBaru.nama = (input("masukan nama siswa :"))
+	siswaBaru.nim = (int(input("masukan nim : 212370017, LANJUT")))
+	siswaBaru.nama = (input("masukan nama siswa :TioBayuHermawan, LANJUT"))
 	dataSiswa.append(siswaBaru)
 	ulang = input("Apakah Anda Ingin Mengulang (Y/ T)? ")
 
